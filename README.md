@@ -72,3 +72,19 @@ The response is formatted in JSON. The response will contain information regardi
 
 ```
 
+Response Object Type Definitions
+
+The type definitions for the response JSON object:
+
+Response	Type	Description
+
+| Response   |  Type  |          Description                               |
+|------------|--------|----------------------------------------------------|
+| venueName       | string | The name of the venue                        |
+| venueAddress | string | The address of the venue                 |
+| lat   | float    |The latitude of the event|
+| long| float | The longitude of the event                       |
+| date| string | the date of the event                      |
+| Time   | HH:MM format in CST    | The time of the event |
+|Cost |float| The cost of ticket|
+|Tags|  String list| Tags of events|
