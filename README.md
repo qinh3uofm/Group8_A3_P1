@@ -21,7 +21,7 @@ Parameters
 |`date`|String|yes|The date of the event|
 
 ## Sample Request
-These are some sample requests to get information about Manitoba music events for a given location in longitude and latitude as well as the date of the event.
+This a sample request to get information about Manitoba music events for a given location in longitude and latitude as well as the date of the event.
 ```
 https://api.manitobamusicevents.org/events?lat=”44.968046”&lon=”-94.420307”&date=”2022-03-31”
 ```
