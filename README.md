@@ -16,9 +16,9 @@ Parameters
 
 |Parameter|Type|Required|Description|
 |---|---|---|---|
-|lat|float|Yes|The latitude of the event|
-|lon|float|yes|The longitude of the event|
-|date|String|yes|The date of the event|
+|`lat`|float|Yes|The latitude of the event|
+|`lon`|float|yes|The longitude of the event|
+|`date`|String|yes|The date of the event|
 
 ## Sample Request
 These are some sample requests to get information about Manitoba music events for a given location in longitude and latitude as well as the date of the event.
