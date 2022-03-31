@@ -31,7 +31,7 @@ A request can also be made with no parameters to get a list of upcoming events i
 
 https://api.manitobamusicevents.org/events
 
-##Sample Response
+## Sample Response
 The response is formatted in JSON. The response will contain information regarding the event including: the event name, the headlining performers, the name of the venue, the address, its location given in longitude and latitude, the event date and time, as well as the cost to attend. The response also includes the event website and tags describing the event.
 
 ```json
