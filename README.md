@@ -23,13 +23,7 @@ Parameters
 ## Sample Request
 These are some sample requests to get information about Manitoba music events for a given location in longitude and latitude as well as the date of the event.
 ```
-https://api.manitobamusicevents.org/events?lat=”44.968046”&lon=”-94.420307”
-
-https://api.manitobamusicevents.org/events?date=”2022-03-31”
-```
-A request can also be made with no parameters to get a list of upcoming events in Manitoba.
-```
-https://api.manitobamusicevents.org/events
+https://api.manitobamusicevents.org/events?lat=”44.968046”&lon=”-94.420307”&date=”2022-03-31”
 ```
 ## Sample Response
 The response is formatted in JSON. The response will contain information regarding the event including: the event name, the headlining performers, the name of the venue, the address, its location given in longitude and latitude, the event date and time, as well as the cost to attend. The response also includes the event website and tags describing the event.
@@ -46,7 +40,7 @@ The response is formatted in JSON. The response will contain information regardi
     "venueAddress" : "555 Main Street, Winnipeg",
     "lat" : 44.968046,
     "long" : -94.420307,
-    "date" : "2022-04-30",
+    "date" : "2022-03-31",
     "time" : "7:30 PM CST",
     "cost" : "15.00",
     "tags" : ["octoberfest", "party"]
@@ -62,7 +56,7 @@ The response is formatted in JSON. The response will contain information regardi
     "lat" : 44.33328,
     "long" : -89.132008,
     "date" : "2022-03-31",
-    "time" : "7:30 PM CST",
+    "time" : "8:30 PM CST",
     "cost" : "15.00",
     "tags" : ["nba", "Dunk"]
   },
