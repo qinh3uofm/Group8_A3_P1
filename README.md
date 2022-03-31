@@ -49,7 +49,7 @@ The response is formatted in JSON. The response will contain information regardi
   "date" : "2022-04-30",
   "time" : "7:30 PM CST",
   "cost" : "15.00",
-  "tags" : [‘octoberfest’, ‘party’]
+  "tags" : ["octoberfest", "party"]
 },
 {
   "eventName" : "DunkMania",
@@ -64,7 +64,7 @@ The response is formatted in JSON. The response will contain information regardi
   "date" : "2022-03-31",
   "time" : "7:30 PM CST",
   "cost" : "15.00",
-  "tags" : [‘nba’, ‘Dunk’]
+  "tags" : ["nba", "Dunk"]
 },
     "status":"OK"
 }
