@@ -22,15 +22,15 @@ Parameters
 
 ## Sample Request
 These are some sample requests to get information about Manitoba music events for a given location in longitude and latitude as well as the date of the event.
-
+```
 https://api.manitobamusicevents.org/events?lat=”4.999”&lon=”4.999”
 
 https://api.manitobamusicevents.org/events?date=”2022-03-31”
-
+```
 A request can also be made with no parameters to get a list of upcoming events in Manitoba.
-
+```
 https://api.manitobamusicevents.org/events
-
+```
 ## Sample Response
 The response is formatted in JSON. The response will contain information regarding the event including: the event name, the headlining performers, the name of the venue, the address, its location given in longitude and latitude, the event date and time, as well as the cost to attend. The response also includes the event website and tags describing the event.
 
