@@ -72,7 +72,7 @@ The response is formatted in JSON. The response will contain information regardi
 
 ```
 
-Response Object Type Definitions
+## Response Object Type Definitions
 
 The type definitions for the response JSON object:
 
