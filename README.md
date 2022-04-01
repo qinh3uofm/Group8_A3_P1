@@ -4,8 +4,6 @@ This API provides information about upcoming music-related events in Manitoba. R
 
 The API response will contain the name of music events in Manitoba, their respective venues and dates, admission costs, and website. More information about the response can be found in the [sample response](https://github.com/qinh3uofm/Group8_A3_P1/blob/main/README.md#sample-response) section.
 
-# Description of resources
-
 ## Endpoints
 
 There is one endpoint for our API. Use a GET a request to get a response from the API. 
