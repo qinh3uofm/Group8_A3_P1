@@ -1,14 +1,14 @@
 # Music Events in Manitoba
 
-This API provides information about upcoming music-related events in Manitoba. Results given will be based on a provided latitude and longitude or date.
+This API provides information about upcoming music-related events in Manitoba. Results given will be based on a provided latitude, longitude, and date.
 
-The API response will contain the name of music events in Manitoba, their respective venues and dates, admission costs, and website. More information about the response can be found in the [sample response](https://github.com/qinh3uofm/Group8_A3_P1/blob/main/README.md#sample-response) section.
+The API response will contain the name of music events in Manitoba, the headlining performers, their respective venues and dates, admission costs, and website and tags that are describing the event. More information about the response can be found in the [sample response](https://github.com/qinh3uofm/Group8_A3_P1#sample-response) section.
 
 ## Endpoints
 
 There is one endpoint for our API. Use a GET a request to get a response from the API. 
 
-GET /events → Lists all music events that will happen in Manitoba
+GET /events → Lists all music events that will happen in Manitoba.
 
 Parameters
 
@@ -78,7 +78,7 @@ The type definitions for the response JSON object:
 | `venueAddress` | string | The address of the venue                 |
 | `lat`   | float    |The latitude of the event|
 | `long`| float | The longitude of the event                       |
-| `date`| string | the date of the event                      |
+| `date`| string | The date of the event                      |
 | `Time`   | HH:MM format in CST    | The time of the event |
 |`Cost` |float| The cost of ticket|
 |`Tags`|  String list| Tags of events|
