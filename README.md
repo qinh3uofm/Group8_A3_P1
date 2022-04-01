@@ -41,7 +41,7 @@ The response is formatted in JSON. The response will contain information regardi
     "date" : "2022-03-31",
     "time" : "7:30 PM CST",
     "cost" : "15.00",
-    "tags" : ["octoberfest", "party"]
+    "tags" : ["oktoberfest", "party"]
   },
   {
     "eventName" : "DunkMania",
@@ -50,13 +50,13 @@ The response is formatted in JSON. The response will contain information regardi
         "genre" : "Hip-Hop"
     },
     "venueName" : "University of Manitoba",
-    "venueAddress" : "33 Chancellor cir",
+    "venueAddress" : "33 Chancellor Circle, Winnipeg",
     "lat" : 44.33328,
     "long" : -89.132008,
     "date" : "2022-03-31",
     "time" : "8:30 PM CST",
     "cost" : "15.00",
-    "tags" : ["nba", "Dunk"]
+    "tags" : ["nba", "dunk"]
   },
   "status":"OK"
 }
@@ -79,6 +79,6 @@ The type definitions for the response JSON object:
 | `lat`   | float    |The latitude of the event|
 | `long`| float | The longitude of the event                       |
 | `date`| string | The date of the event                      |
-| `Time`   | HH:MM format in CST    | The time of the event |
-|`Cost` |float| The cost of ticket|
-|`Tags`|  String list| Tags of events|
+| `time`   | HH:MM format in CST    | The time of the event |
+|`cost` |float| The cost of ticket|
+|`tags`|  String list| Tags of events|
