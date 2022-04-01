@@ -68,7 +68,6 @@ The response is formatted in JSON. The response will contain information regardi
 
 The type definitions for the response JSON object:
 
-Response	Type	Description
 
 | Response   |  Type  |          Description                               |
 |------------|--------|----------------------------------------------------|
