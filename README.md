@@ -59,7 +59,6 @@ The response is formatted in JSON. The response will contain information regardi
     "cost" : "15.00",
     "tags" : ["nba", "dunk"]
   }
-  }
   ],
  "status":"OK"
 }
