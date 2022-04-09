@@ -28,7 +28,7 @@ The response is formatted in JSON. The response will contain information regardi
 
 ```json
  {
-  results: [
+  "results": [
     "eventName" : "Oktoberfest",
     "group" : {
         "groupName" : "2-Direction",
