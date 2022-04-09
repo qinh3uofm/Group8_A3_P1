@@ -29,6 +29,7 @@ The response is formatted in JSON. The response will contain information regardi
 ```json
  {
   "results": [
+  {
     "eventName" : "Oktoberfest",
     "group" : {
         "groupName" : "2-Direction",
@@ -57,9 +58,10 @@ The response is formatted in JSON. The response will contain information regardi
     "time" : "8:30 PM CST",
     "cost" : "15.00",
     "tags" : ["nba", "dunk"]
-  },
-  "status":"OK"
-]
+  }
+  }
+  ],
+ "status":"OK"
 }
 
 
