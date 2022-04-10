@@ -8,13 +8,13 @@ The API response will contain the name of music events in Manitoba, the headlini
 
 There is one endpoint for our API. Use a GET a request to get a response from the API. 
 
-GET /events → Lists all music events that will happen in Manitoba.
+GET `/events` Lists all music events that will happen in Manitoba.
 
 Parameters
 
 |Parameter|Type|Required|Description|
 |---|---|---|---|
-|`lat`|float|Yes|The latitude of the event|
+|`lat`|float|yes|The latitude of the event|
 |`lon`|float|yes|The longitude of the event|
 |`date`|String|yes|The date of the event|
 
@@ -83,4 +83,4 @@ The type definitions for the response JSON object:
 | `date`| string | The date of the event                      |
 | `time`   | HH:MM format in CST    | The time of the event |
 |`cost` |float| The cost of ticket|
-|`tags`|  String list| Tags of events|
+|`tags`|  string array | Tags of events|
